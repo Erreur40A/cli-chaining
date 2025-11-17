@@ -2,7 +2,7 @@
 
 ## Commande passée
 
-  $
+  $ grep -i batman sets.csv | awk -F ',' '{printf("|%s | %s|\n", $3, $2)}' | sort | uniq
 
 ## Résultat
 
